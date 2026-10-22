@@ -1,7 +1,7 @@
 # Thesis-Human-Understang-and-Machine-Annotation
 Supplementary materials for a thesis on spatial language annotation and LLMs.
 
-# Between Human Understanding and Machine annotation (Thesis)
+# Between Human Understanding and Machine Annotation (Thesis)
 University: University of Gothenburg, Sweden
 Year: 2026 
 
