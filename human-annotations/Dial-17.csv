@@ -1,0 +1,150 @@
+﻿Conversation ID,Participant,Turn,Message,Utterances,DA,Spatial,Relation Type,Topological,View Point,FoR,Explicit,Entities,Comments
+17,1,1,1,Hey,…,0,0,0,0,0,0,0,Starting / Greeting 
+17,2,2,2,Hey,Answer ,0,0,0,0,0,0,0,Starting / Greeting 
+17,1,3,3,What should we do now?,Question ,0,0,0,0,0,0,0,Asking about the situation
+17,2,4,4,I assume we should just describe what we see first? ,Answer ,0,0,0,0,0,0,0,Guessing about the instruction
+17,1,5,5,"Okay, I see a table with a lot of big cups",Inform,0,0,0,0,0,0,0,Describing the scene
+17,2,6,6,"I see a lot of different cups, 3 red, 3 blue, 2 yellow and 7 white",Inform ,0,0,0,0,0,0,"B1, B2, B3, B5, B7, B8, B9, B10, B11, B12, B13, B14, B15, B16, B17, B18",Describing the scene
+17,1,7(1),7(1),and two women standing around it,Inform ,1,Region,0,Speaker,Relative,0,"2, 3",Describing the scene
+17,1,7(2),7(2),"I see 8 white, two are doubles?",Question,0,0,0,0,0,0,"A15, A12, A13, A7, A6, A3",Describing the scene / Checking the addressee
+17,1,7(3),7(3),3 blue 3 red and 2 yellow,Inform,0,0,0,0,0,0,"A2, A8, A11, Ambiguous, A9, A18",Describing the scene
+17,2,8,8,Yea two appear to be double without a handle,Accept ,0,0,0,0,0,0,"B13, B16",Describing the scene
+17,1,9,9,yes,Confirm,0,0,0,0,0,0,0,Confirming
+17,2,10,10,Maybe buckets?,Suggest,0,0,0,0,0,0,"B13, B16",Checking the scene
+17,1,11(1),11(1),yeah could be ,Agreement,0,0,0,0,0,0,0,Confirming
+17,1,11(2),11(2),look like pots also lol,Inform ,0,0,0,0,0,0,"A6, A13",Answering / Expressing emotions
+17,2,12(1),12(1),Could be,Agreement,0,0,0,0,0,0,0,Confirming
+17,2,12(2),12(2),"All the cups with visable handles, have white handles with a strap of their colour",Inform,0,0,0,0,0,0,"B1, B2, B3, B7, B8, B9, B10, B11, B12, B14, B15, B17, B18",Describing the scene / Checking the addressee
+17,1,13(1),13(1),"yeah, except the two red ones in front",Agreement ,1,Projective,0,Speaker,Relative,0,"A1, A4",Answering / Describing the scene
+17,1,13(2),13(2),and the two yellow ones,Inform ,0,0,0,0,0,0,"A9, A18",Describing the scene
+17,2,14,14a,Red ones in front? ,Question ,1,Projective,0,Speaker,Relative,0,"B1, B17",Asking about the scene
+17,2,14,14b,I think our images have different rotations,Inform ,0,0,0,0,0,0,0,Guessing about the scene
+17,1,15,15,oh maybe,Agreement,0,0,0,0,0,0,0,Confirming
+17,2,16,16,I have one red in front and two in the back right corner,Inform ,1,Projective / Region,0,Speaker,Relative,0,"B17, B5, B1",Describing the scene
+17,1,17,17,"I have in the front row from left to right, red blue white red",Inform ,1,Projective / Directional,0,Speaker,Realtive,0,"A1, A2, A3, A4",Describing the scene
+17,2,18(1),18(1),Mine is yellow red white(bucket) white normal,Inform,0,0,0,0,0,0,"B18, B17, B16, B15",Describing the scene
+17,2,18(2),18(2),"Last row from left to right is white normal, blue, red",Inform,1,Directional,0,Speaker,Realtive,0,"B3, B2, B1",Describing the scene
+17,1,19(1),19(1)a,"uh huh, ",Agreement,0,0,0,0,0,0,0,Answering / Expressing emotions
+17,1,19(1),19(1)b,"I'm confused,",Inform,0,0,0,0,0,0,0,Expressing emotions
+17,1,19(1),19(1)c,looks a bit different,Inform,0,0,0,0,0,0,0,Expressing emotions
+17,1,19(2),19(2),so the two women,Inform ,0,0,0,0,0,0,"2, 3",Describing the scene
+17,1,19(3),19(3),one have from left to right in front of them (their left) yellow red withe,Inform ,1,Directional / Projective,0,Katie / Addressee,Relative,0,0,Describing the scene
+17,2,20,20,I have one woman and one man,Inform ,0,0,0,0,0,0,"2, 1",Describing the scene
+17,1,21(1),21(1),"and one is red blue white bucket, yellow",Inform ,0,0,0,0,0,0,"A4, A8, A13, A18",Describing the scene
+17,1,21(2),21(2),ohhh okay,Accept ,0,0,0,0,0,0,0,Confirming / Expressing emotions
+17,2,22(1),22(1)a,Woman with white shirt? ,Question ,0,0,0,0,0,0,2,Checking the addressee
+17,2,22(1),22(1)b,Has a yellow white and red mug infront of them?,Question ,1,Projective,0,Katie,Relative,0,"B18, B14, Ambiguous",Asking about the scene
+17,2,22(2),22(2),They are standing on the right side of the image? ,Question ,1,Projective,0,Empty edge,Relative,0,Ambiguous,Asking about the scene
+17,1,23,23a,"I have one with grey standing opposite, ",Inform,1,Directional,0,Speaker,Relative,0,3,Describing the scene
+17,1,23,23b,and one with white shirt standing on the right of me ,Inform,1,Projective,0,Katie,Relative,0,1,Describing the scene
+17,2,24,24a,So im the woman in gray ,Inform ,0,0,0,0,0,0,"3, 2",Concluding about the scene
+17,2,24,24b,and the white one is the npc from the description of the task ,Inform ,0,0,0,0,0,0,0,Describing the scene
+17,1,25(1),25(1),okay,Accept ,0,0,0,0,0,0,0,Confirming
+17,1,25(2),25(2),"so you have from your left, yellow red white?",Question ,1,Projective,0,Addressee,Relative,0,"A18, A17, A15",Asking about the scene
+17,1,25(3),25(3),"and I have from my left, red blue white red",Inform ,1,Projective,0,Speaker,Relative,0,"A1, A2, A3, A4",Describing the scene
+17,2,26(1),26(1)a,"I have yellow red white white, ",Inform,0,0,0,0,0,0,"B18, B17, B16, B15",Describing the scene
+17,2,26(1),26(1)b,and you red blue white. ,Inform ,0,0,0,0,0,0,"B1, B2, B3",Describing the scene / Checking the addressee
+17,2,26(2),26(2),There is 3 red cups one in front of me and one in front of you with the last one behind the one in front of you,Inform,1,Projective,0,Speaker / Addressee,Relative,0,"B17, B1, B5",Describing the scene
+17,2,26(3),26(3),There are*,Inform ,0,0,0,0,0,0,0,Correcting the grammar
+17,1,27(1),27(1)a,"it doesn't make sense lol, ",Decline,0,0,0,0,0,0,0,Expressing ideas / Expressing emotions
+17,1,27(1),27(1)b,are our images different or is it supposed to be the same? ,Question ,0,0,0,0,0,0,0,Asking about the scene
+17,1,27(2),27(2)a,"I have 2 red cups in front of me, ",Inform ,1,Projective,0,Speaker,Relative,0,0,Describing the scene
+17,1,27(2),27(2)b,one far right and one far left,Inform ,1,Projective,0,Speaker,Relative,0,"A4, A1",Describing the scene
+17,2,28,28,There was suppose to be some difference,Inform ,0,0,0,0,0,0,0,Explaining the instruction
+17,1,29,29,okay ,Accept,0,0,0,0,0,0,0,Confirming
+17,2,30(1),30(1)a,I think we have the same amount of cups ,Inform,0,0,0,0,0,0,0,Describing the scene / Checking the addressee
+17,2,30(1),30(1)b,but they have slightly different positions,Inform ,0,0,0,0,0,0,0,Describing the scene
+17,2,30(2),30(2),Cuz your far right is empty on my screen,Inform ,1,Projective,0,Addressee,Relative,0,B4,Describing the scene
+17,1,31(1),31(1),hmm,…,0,0,0,0,0,0,0,Expressing emotions
+17,1,31(2),31(2),damn we can't scroll up the chat lol,Inform,0,0,0,0,0,0,0,Expressing ideas / Expressing emotions
+17,2,32,32,The first two rows on your side only has 3 cups each for me,Inform,1,Region,0,Adressee,Relative,0,"B1, B2, B3, B5, B7, B8",Describing the scene
+17,1,33(1),33(1)a,"yeah yours is the same for me, ",Confirm ,0,0,0,0,0,0,0,Confirming the suggestion
+17,1,33(1),33(1)b,you have two rows with three cups each ,Inform,0,0,0,0,0,0,"A15, A17, A18, A11, A12, A13",Describing the scene
+17,1,33(2),33(2),what was our end goal again?,Question ,0,0,0,0,0,0,0,Asking about the game
+17,2,34(1),34(1)a,Is it last row is Kinda 3 cups towards your right side? ,Question ,1,Directional,0,Addressee,Relative,0,Ambiguous,Asking about the scene
+17,2,34(1),34(1)b,Then 2nd to last more spaced out on the table?,Question ,1,0,0,Addressee,Relative,0,0,Describing the scene
+17,2,34(2),34(2)a,"Find the difference, ",Suggest,0,0,0,0,0,0,0,Asking addressee to do sth
+17,2,34(2),34(2)b,but im not sure how we really keep track,Inform ,0,0,0,0,0,0,0,Expressing ideas about the situation
+17,2,34(3),34(3)a,They said the npc could see everything ,Inform ,0,0,0,0,0,0,2,Explaining the instruction
+17,2,34(3),34(3)b,but idk how that would help us ,Inform,0,0,0,0,0,0,0,Expressing ideas
+17,1,35(1),35(1)a,"we can do this, ",Suggest,0,0,0,0,0,0,0,Suggesting a way
+17,1,35(1),35(1)b,describe every row and column from our perspective in one message,Suggest ,0,0,0,0,0,0,0,Suggesting a way
+17,1,35(2),35(2)a,"okay from in front of me to the back, and from left to right, first row is red blue white, ",Inform ,1,Projective / Directional,0,Speaker,Relative,0,"A1, A2, A3",Describing the scene
+17,1,35(2),35(2)b,"then there is second row one white bucket in the middle, ",Inform ,1,Region,0,Speaker,Relative,0,A6,Describing the scene
+17,1,35(2),35(2)c,"then third row yellow red white blue, fourth blue white white bucket and last white red yellow,",Inform ,0,0,0,0,0,0,"A9, A10, A7, A8, A11, A12, A13, A15, A17, A18",Describing the scene
+17,1,35(2),35(2)d,maybe we should try to draw each others on a paper or something ,Suggest,0,0,0,0,0,0,0,Suggesting a way
+17,2,36,36a,"From my side 1st row from left to right is: yellow, red, white(bucket), white. ",Inform ,1,Region / Directional,0,Speaker,Relative,0,"B18, B17, B16, B15",Describing the scene
+17,2,36,36b,"2nd row from left to right is white, white (bucket) white, blue, yellow. ",Inform,1,Directional,0,Speaker,Relative,0,"B14, B13, B12, B11, B9",Describing the scene
+17,2,36,36c,"3rd row is blue, white, red last row is white blue red",Inform ,0,0,0,0,0,0,"B8, B7, B5, B3, B2, B1",Describing the scene
+17,1,37,37,I think the difference is just how one white and one white bucket are positioned,Inform ,0,0,0,0,0,0,0,Expressing ideas
+17,2,38,38a,Does the white mugs Kina form a y shape on the table? ,Question ,0,0,0,0,0,0,"B3, B7, B12, B13, B14, B16",Asking about the scene
+17,2,38,38b,Except for one that is in my right side corner?,Inform,1,Region,0,Speaker,Relative,0,B15,Describing the scene
+17,1,39(1),39(1),and one red is also different?,Question ,0,0,0,0,0,0,0,Asking about the scene
+17,1,39(2),39(2)a,"yeah they kind of do, ",Confirm ,0,0,0,0,0,0,0,Confirming
+17,1,39(2),39(2)b,the tale of the y is kind of bent maybe? ,Question ,0,0,0,0,0,0,"A12, A13, A6, A7, A3",Suggesting a way
+17,2,40(1),40(1),"Maybe, cuz the red ones closet to you are back to back",Confirm,1,Proximity,closet to,Adressee,Intrinsic,0,"B1, B5",Describing the scene
+17,2,40(2),40(2),Yea so 5 of the wite mugs form a y shape,Agreement,0,0,0,0,0,0,"B3, B7, B12, B13, B14, B16",Describing the scene
+17,1,41,41,"okay, now what, this is trippy lol",Confirm,0,0,0,0,0,0,0,Expressing emotions
+17,2,42,42a,If we go based on the white mugs forming a y shape ,Suggest,0,0,0,0,0,0,0,Suggesting a way
+17,2,42,42b,the top part (v like) is closet to me ,Inform,1,Proximity,closet to,Speaker,Relative,0,0,Describing the scene
+17,2,42,42c,and has a yellow and red mug in it. ,Inform,0,0,0,0,0,0,"B17, B18",Describing the scene
+17,2,42,42d,On the lower j part of the y there is a single blue mug on your right/my left. ,Inform,1,Projective,0,Speaker / Addressee,Relative,0,B8,Describing the scene
+17,2,42,42e,"With two blue, two red and one yellow on your left/my right.",Inform,1,Projective,0,Addressee,Relative,0,"B2, B11, B1, B5",Describing the scene
+17,2,42,42f,With the last white cup in the corner closest to my right side. ,Inform,1,Proximity,closet to,Speaker,Relative,0,B15,Describing the scene
+17,2,42,42g,Is it the same for you? ,Question ,0,0,0,0,0,0,0,Checking the addressee
+17,1,43,43,yes,Confirm,0,0,0,0,0,0,0,Confirming
+17,2,44,44a,So maybe our cups are the same ,Suggest,0,0,0,0,0,0,0,Accepting the situation
+17,2,44,44b,its just the perspective that makes it weird? ,Question,0,0,0,0,0,0,0,Asking about the scene
+17,1,45,45,maybe ,Agreement,0,0,0,0,0,0,0,Answering
+17,2,46,46,Maybe its the handles?,Question ,0,0,0,0,0,0,0,Checking the scene
+17,1,47,47,but do I have a red mug on my far right from your perspective as well?,Question,1,Projective,0,Addressee,Relative,From your perspective,A4,Asking about the scene
+17,2,48(1),48(1),No,Disagreement,0,0,0,0,0,0,0,Answering
+17,2,48(2),48(2),Only a blue,Inform,0,0,0,0,0,0,B8,Answering
+17,1,49,49,yeah the blue is right middle of the yable from my perspective,Inform,1,Region,0,Speaker,Relative,From my perspective,A8,Describing the scene
+17,2,50,50a,Wait if its right from my perspective ,Suggest,1,Projective,0,Speaker,Relative,From my perspective,B11,Describing the scene
+17,2,50,50b,then you have one red in the corner.,Inform,1,Region,0,Addressee,Relative,0,B1,Describing the scene
+17,2,50,50c,Was thinking right from your perspective,Inform,1,Projective,0,Addressee,Relative,From your perspective,0,Describing the scene
+17,1,51,51,"no I have one red on either of my sides, like one on each side",Disagreement,1,Region,0,Speaker,Relative,0,"A1, A4",Describing the scene
+17,2,52(1),52(1)a,"That you dont, ",Inform ,0,0,0,0,0,0,0,Checking the addressee
+17,2,52(1),52(1)b,there are two reds in the same corner on your side and one in the middle of the table on my side,Inform ,1,Region,0,Speaker / Addressee,Relative,0,"B1, B5, B17",Describing the scene
+17,2,52(2),52(2),Its the corner on your left side,Inform ,1,Region ,0,Addressee,Relative,0,B17,Describing the scene
+17,1,53,53a,"I have like 4 reds in total, ",Inform ,0,0,0,0,0,0,"A1, A4, A10, A17",Describing the scene
+17,1,53,53b,you have three or? ,Question,0,0,0,0,0,0,0,Checking the addressee
+17,2,54,54,3,Answer ,0,0,0,0,0,0,"B1, B5, B17",Answering
+17,1,55,55,and I have two yellow,Inform,0,0,0,0,0,0,"A9, A18",Describing the scene
+17,2,56,56,"I have 2 yellow, 3 red, 3 blue, 6 white",Inform,0,0,0,0,0,0,"B9, B18, B17, B1, B5, B2, B8, B11, B3, B7, B12, B13, B14, B16, B15",Describing the scene
+17,1,57,57,I have one red extra then,Inform,0,0,0,0,0,0,0,Describing the scene
+17,2,58,58a,"Okay, that is the difference ",Confirm ,0,0,0,0,0,0,0,Concluding about the scene
+17,2,58,58b,they wanted us to find i think ,Inform,0,0,0,0,0,0,0,Asking about the game
+17,1,59,59a,"LOL, that's crazy, ",Answer,0,0,0,0,0,0,0,Expressing emotions
+17,1,59,59b,so everything else is the same? ,Question,0,0,0,0,0,0,0,Checking the addressee
+17,2,60(1),60(1),I think so,Agreement,0,0,0,0,0,0,0,Agreeing
+17,2,60(2),60(2),We havent said anything else that stod out,Agreement,0,0,0,0,0,0,0,Checking the addressee
+17,1,61,61,but you have like four cups in front of you the closest ones right?,Question,1,Projective / Proximity,the closet ,Addressee,Relative,0,"A15, A17, A18",Asking about the scene
+17,2,62(1),62(1),"Yea Kinda yellow red, bucket and white are really close to me",Agreement,1,Proximity,close to,Speaker,Relative,0,"B18, B17, B16, B15",Describing the scene
+17,2,62(2),62(2),You also has two buckets?,Question ,0,0,0,0,0,0,"B13, B16",Asking about the scene
+17,1,63(1),63(1),for me you are missing the bucket one right in front of you,Inform ,1,Projective,0,Addressee,Relative,0,A13,Describing the scene
+17,1,63(2),63(2)a,yeah I have two buckets also ,Accept,0,0,0,0,0,0,"A6, A13",Confirming
+17,1,63(2),63(2)b,but I think one of them is in a differet place for either of us,Suggest,0,0,0,0,0,0,0,Asking about the scene
+17,2,64,64,You had 6 white?,Question,0,0,0,0,0,0,0,Asking about the scene
+17,1,65,65,yes,Answer ,0,0,0,0,0,0,0,Answering
+17,2,66,66,The buckets are on my first and 2nd row,Inform ,0,0,0,0,0,0,"B16, B13",Describing the scene
+17,1,67,67,for me one of the buckets is right between the two whites on the tale of the Y,Inform ,1,Between,0,Speaker,Relative,0,"A3, A6, A7",Describing the scene
+17,2,68,68a,Yea that is my 2nd bucket ,Inform,0,0,0,0,0,0,B13,Describing the scene
+17,2,68,68b,the first one. Makes the top corner of the y. ,Inform,1,Region,0,Speaker,Relative,0,B16,Describing the scene
+17,2,68,68c,From your perspective it would be the top left corner,Inform ,1,Region,0,Addressee,Relative,From your perspective,0,Describing the scene
+17,1,69,69a,"yes, should be, ",Agreement,0,0,0,0,0,0,0,Confirming
+17,1,69,69b,the one closest to you right? ,Question,1,Proximity ,closet to,Addressee,Relative,0,A17,Asking about the scene
+17,2,70,70,Yes ,Confirm ,0,0,0,0,0,0,B16,Answering
+17,1,71,71a,"okay I think that's the two differences, ",Accept ,0,0,0,0,0,0,0,Concluding about the scene
+17,1,71,71b,one bucket is out of place and one extra red?,Question,0,0,0,0,0,0,0,Checking the addressee
+17,2,72(1),72(1),Seems like it,Agreement,0,0,0,0,0,0,0,Confirming
+17,2,72(2),72(2)a,That is probably why the had two buckets. ,Inform ,0,0,0,0,0,0,"B13, B16",Concluding about the scene
+17,2,72(2),72(2)b,So we could notice them. ,Suggest,0,0,0,0,0,0,0,Expressing ideas
+17,1,73,73,okay ,Accept,0,0,0,0,0,0,0,Agreeing
+17,2,74,74,Should we end?,Suggest,0,0,0,0,0,0,0,Asking about the game
+17,1,75,75,yeah I think,Accept ,0,0,0,0,0,0,0,Agreeing
+17,2,76,76,Okay bye,Inform,0,0,0,0,0,0,0,Closing
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
