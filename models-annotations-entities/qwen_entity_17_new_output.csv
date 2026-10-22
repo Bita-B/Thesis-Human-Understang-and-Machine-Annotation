@@ -1,0 +1,111 @@
+﻿Participant,Turn,Messages,Entities
+1,1,Hey,-
+2,2,Hey,-
+1,3,What should we do now?,-
+2,4,I assume we should just describe what we see first?,-
+1,5,"Okay, I see a table with a lot of big cups",-
+2,6,"I see a lot of different cups, 3 red, 3 blue, 2 yellow and 7 white",-
+1,7(1),and two women standing around it,2‚3
+1,7(2),"I see 8 white, two are doubles?",A6‚A16
+1,7(3),3 blue 3 red and 2 yellow,-
+2,8,Yea two appear to be double without a handle,B7‚B13
+1,9,yes,-
+2,10,Maybe buckets?,B7‚B13
+1,11(1),yeah could be,-
+1,11(2),look like pots also lol,A6‚A16
+2,12(1),Could be,-
+2,12(2),"All the cups with visable handles, have white handles with a strap of their colour",-
+1,13(1),"yeah, except the two red ones in front",A1‚A4
+1,13(2),and the two yellow ones,A5‚A9
+2,14,Red ones in front? I think our images have different rotations,B1‚B5
+1,15,oh maybe,-
+2,16,I have one red in front and two in the back right corner,B1‚B5‚B17
+1,17,"I have in the front row from left to right, red blue white red",A1‚A2‚A3‚A4
+2,18(1),Mine is yellow red white(bucket) white normal,B4‚B1‚B7‚B15
+2,18(2),"Last row from left to right is white normal, blue, red",B15‚B14‚B17
+1,19(1),"uh huh, I'm confused, looks a bit different",-
+1,19(2),so the two women,2‚3
+1,19(3),one have from left to right in front of them (their left) yellow red withe,ambiguous
+2,20,I have one woman and one man,2‚1
+1,21(1),"and one is red blue white bucket, yellow",ambiguous
+1,21(2),ohhh okay,-
+2,22(1),Woman with white shirt? Has a yellow white and red mug infront of them?,2‚B4‚B7‚B1
+2,22(2),They are standing on the right side of the image?,2
+1,23,"I have one with grey standing opposite, and one with white shirt standing on the right of me",3‚2
+2,24,So im the woman in gray and the white one is the npc from the description of the task,3‚2
+1,25(1),okay,-
+1,25(2),"so you have from your left, yellow red white?",B4‚B1‚B7
+1,25(3),"and I have from my left, red blue white red",A1‚A2‚A3‚A4
+2,26(1),"I have yellow red white white, and you red blue white.",B4‚B1‚B7‚B15‚A1‚A2‚A3
+2,26(2),There is 3 red cups one in front of me and one in front of you with the last one behind the one in front of you,B1‚A1‚A10
+2,26(3),There are*,-
+1,27(1),"it doesn't make sense lol, are our images different or is it supposed to be the same?",-
+1,27(2),"I have 2 red cups in front of me, one far right and one far left",A1‚A4
+2,28,There was suppose to be some difference,-
+1,29,okay,-
+2,30(1),I think we have the same amount of cups but they have slightly different positions,-
+2,30(1),but they have slightly different positions,-
+2,30(2),Cuz your far right is empty on my screen,A4
+1,31(1),hmm,-
+1,31(2),damn we can't scroll up the chat lol,-
+2,32,The first two rows on your side only has 3 cups each for me,-
+1,33(1),"yeah yours is the same for me, you have two rows with three cups each",-
+1,33(1),you have two rows with three cups each,-
+1,33(2),what was our end goal again?,-
+2,34(1),Is it last row is Kinda 3 cups towards your right side? Then 2nd to last more spaced out on the table?,-
+2,34(1),Then 2nd to last more spaced out on the table?,-
+2,34(2),"Find the difference, but im not sure how we really keep track",-
+2,34(3),They said the npc could see everything but idk how that would help us,-
+1,35(1),"we can do this, describe every row and column from our perspective in one message",-
+1,35(2),"okay from in front of me to the back, and from left to right, first row is red blue white, then there is second row one white bucket in the middle, then third row yellow red white blue, fourth blue white white bucket and last white red yellow",A1‚A2‚A3‚A6‚A5‚A10‚A12‚A14‚A8‚A11‚A16‚A13‚A17‚A18
+1,35(2),maybe we should try to draw each others on a paper or something,-
+2,36,"From my side 1st row from left to right is: yellow, red, white(bucket), white. 2nd row from left to right is white, white (bucket) white, blue, yellow. 3rd row is blue, white, red last row is white blue red",B4‚B1‚B7‚B15‚B3‚B6‚B10‚B11‚B9‚B2‚B12‚B5‚B13‚B14‚B17
+1,37,I think the difference is just how one white and one white bucket are positioned,A3‚A6
+2,38,Does the white mugs Kina form a y shape on the table? Except for one that is in my right side corner?,B3‚B6‚B7‚B10‚B12‚B13‚B15
+1,39(1),and one red is also different?,A10
+1,39(2),"yeah they kind of do, the tale of the y is kind of bent maybe?",-
+2,40(1),"Maybe, cuz the red ones closet to you are back to back",B1‚B5
+2,40(2),Yea so 5 of the wite mugs form a y shape,"B3‚B6‚B7,B10‚B12"
+1,41,"okay, now what, this is trippy lol",-
+2,42,"If we go based on the white mugs forming a y shape, the top part (v like) is closet to me and has a yellow and red mug in it. On the lower j part of the y there is a single blue mug on your right/my left. With two blue, two red and one yellow on your left/my right. With the last white cup in the corner closest to my right side. Is it the same for you?",B3‚B6‚B7‚B10‚B12‚B4‚B1‚B13‚B11‚B2‚B5‚B9‚B14‚B17‚B15
+1,43,yes,-
+2,44,So maybe our cups are the same its just the perspective that makes it weird?,-
+1,45,maybe,-
+2,46,Maybe its the handles?,-
+1,47,but do I have a red mug on my far right from your perspective as well?,A4
+2,48(1),No,-
+2,48(2),Only a blue,B11
+1,49,yeah the blue is right middle of the yable from my perspective,B11
+2,50,Wait if its right from my perspective then you have one red in the corner. Was thinking right from your perspective,B17
+1,51,"no I have one red on either of my sides, like one on each side",A1‚A4
+2,52(1),"That you dont, there are two reds in the same corner on your side and one in the middle of the table on my side",A1‚A4‚B5
+2,52(2),Its the corner on your left side,A1
+1,53,"I have like 4 reds in total, you have three or?",A1‚A4‚A10‚A17‚B1‚B5‚B17
+2,54,3,-
+1,55,and I have two yellow,A5‚A9
+2,56,"I have 2 yellow, 3 red, 3 blue, 6 white",-
+1,57,I have one red extra then,A10
+2,58,"Okay, that is the difference they wanted us to find i think",-
+1,59(1),"LOL, that's crazy",-
+1,59(2),so everything else is the same?,-
+2,60(1),I think so,-
+2,60(2),We havent said anything else that stod out,-
+1,61,but you have like four cups in front of you the closest ones right?,B4‚B1‚B7‚B15
+2,62(1),"Yea Kinda yellow red, bucket and white are really close to me",B4‚B1‚B7‚B15
+2,62(2),You also has two buckets?,A6‚A16
+1,63(1),for me you are missing the bucket one right in front of you,B7
+1,63(2),yeah I have two buckets also but I think one of them is in a differet place for either of us,A6‚A16
+2,64,You had 6 white?,-
+1,65,yes,-
+2,66,The buckets are on my first and 2nd row,B6‚B7
+1,67,for me one of the buckets is right between the two whites on the tale of the Y,A6
+2,68,Yea that is my 2nd bucket the first one. Makes the top corner of the y. From your perspective it would be the top left corner,B6‚B7
+1,69,"yes, should be, the one closest to you right?",B7
+2,70,Yes,-
+1,71,"okay I think that's the two differences, one bucket is out of place and one extra red?",A6‚A10
+2,72(1),Seems like it,-
+2,72(2),That is probably why the had two buckets. So we could notice them.,B6‚B7
+1,73,okay,-
+2,74,Should we end?,-
+1,75,yeah I think,-
+2,76,Okay bye,-

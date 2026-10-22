@@ -1,0 +1,128 @@
+﻿Participant,Turn,Messages,Entities
+1,1,What do you see?,-
+2,2(1),different colored cups that sort of look like buckets.,A1‚A18
+2,2(1),2 people standing around a table with grass in the background,2‚3
+2,2(2),i see white yellow red and blue cups,A1‚A18
+1,3,There are like 6 white cups and 4 red and 3 blue and 2 yellow. ,B1‚B18
+1,3,Is that the same for you?,-
+2,4(1),"7 white, 3 red, 3 blue, 2 yellow",A1‚A18
+2,4(2),maybe i have a white you cant see,ambiguous
+2,4(2),and you have a red I cant see,ambiguous
+1,5,Yeah maybe,-
+2,6,i see two reds top right and a red at the bottom left,A1‚A10‚A17
+1,7,so maybe there are hidden cups?,-
+2,8,your red could be hidden to me,ambiguous
+2,8,and one of my whites are hidden to you,ambiguous
+1,9,I have one red buttom right and one red buttom left. One top right and also one nearly in the middle.,B1‚B11‚B17‚ambiguous
+2,10,how many reds total did you have?,-
+2,10,i cant scroll up,-
+1,11,four,-
+2,12(1),do you see a man with his arms crossed at the top middle?,1
+2,12(1),"i see two cups under him, ",B3‚B6
+2,12(1),left one is white,B3
+2,12(1),and right one is blue,B6
+2,12(1),are they the same for you?,-
+2,12(2),. . . white blue red .,ambiguous
+1,13,I see two women. ,ambiguous
+1,13,No men,-
+2,14,ok so we probably have different images,-
+1,15,yeah,-
+2,16,do you have any cups near the top left,B4‚B8‚B14
+1,17,"yeah,",B4‚B8‚B14
+1,17,like a white and a blue cup are there,B4‚B8‚B14
+2,18,i dont really have anything in that corner ,A11‚A12‚A15‚A16
+2,18,but i don‚Äôt know what supposed to mean,-
+1,19(1),two of my white cups look a bit differnt from the others. ,ambiguous
+1,19(1),Is that the same for you?,-
+1,19(2),I have cups in every corner,B1‚B5‚B8‚B14‚B15‚B17‚B18
+2,20,i have 2 white cups without handles ,A6‚A7
+2,20,"but i assume theyre pointing away from the ""camera"" ",A6‚A7
+1,21,what do you mean pointing away from the camera?,-
+2,22(1),i mean if they have handles i can't see them because theyre facing away from me,A6‚A7
+2,22(1),because theyre facing away from me,A6‚A7
+2,22(2),they also have thicker lips which make them look more like buckets to me,A6‚A7
+1,23(1),"oh oh okay, ",ambiguous
+1,23(1),Yeah ,ambiguous
+1,23(1),but I think they don't have it,ambiguous
+1,23(2),yes right,-
+2,24,"theyre both near the center, ",A6‚A7
+2,24,"ones center slightly left and the other is center and down, ",A6‚A7
+2,24,almost bottom right but not quite,A6‚A7
+1,25,yeah for me one of them is also center slightly near to the buttom and the other near to the top right,ambiguous
+2,26,whats on the bottom right of your table,B15‚B17
+1,27,You said where are the people standing?,1‚2
+2,28,theres a female left and a guy top,1‚2
+1,29,"on the buttom right there is a red cup,",B17
+1,29,you?,-
+2,30,white,A4
+1,31(1),oh for me a woman right and a woman top,ambiguous
+1,31(2),oh okay,-
+2,32,do the women have different shirt colors?,2‚3
+2,32,if so what are they,-
+1,33(1),the shapes are the same you can say,-
+1,33(2),but the right one has white T shirt,ambiguous
+2,34,i had a theory that youre the guy in my picture and im one of the girls from yours,1‚2‚3
+1,35(1),the top gray,3
+1,35(2),what???? Hahaha,-
+2,36,what hair/pants/shoes,-
+2,36,because if we have the same image but just different angles it should be easy to figure out what is hidden‚Ä¶,-
+2,36,if anything is even hidden ,- 
+1,37(1),"I mean both have jeans,",1‚2
+1,37(1),the right one long hair and ponytail and the top one short hair,2‚3
+1,37(2),I can't see the shoes of the top one ,1
+1,37(2),but the other one are white,2
+2,38(1),i see the same long hair ponytail,2
+2,38(1),but shes to my left,2
+2,38(2),are the cups closest to her yellow and white,A12‚A13‚A18
+1,39(1),"no they are blue, red and yellow, three closest cups to her",ambiguous
+1,39(2),I don't think the pic is mirrored,-
+2,40,no clue if thats not the case. do the shadows on the cups point north west for you?,-
+1,41,yes yes,-
+2,42(1),i was gonna cheat and just create a table of where the cups are (. . . white blue . . red and then the next line would be like . . . . . . . . red),"A1,A18"
+2,42(1),but i dont think that‚Äôs what they intended,-
+2,42(1),if we're looking at the same thing but different cup locations,-
+2,42(1),then a hidden red one for me would be top left,ambiguous
+2,42(1),because isee nothing there,ambiguous
+2,42(2),theres also a big empty area near the middle top right-ish for me,-
+2,42(3),wait the cups line up but at an angle,-
+1,43(1),"no don't cheat haha,",- 
+1,43(1),the table for me is quite full and I really don't see many spots on it. ,- 
+1,43(1),Maybe we can place one more cup in like center but a bit right and one in left,-
+1,43(1),like how?,-
+2,44(1),"so from left to right column, top to bottom row, left would be white yellow.",A1‚A18
+2,44(1),next column is blue white red.,A1‚A18
+2,44(1),"next is 3 white, ",A1‚A18
+2,44(1),next is white blue white.,A1‚A18
+2,44(1),next is blue red yellow.,A1‚A18
+2,44(1),and the last one is red,A1‚A18
+2,44(2),the cups line up in columns,-
+2,44(3),but theyre just offset at an angle the further right they go,-
+1,45(1),omg how complicated,-
+1,45(2),I don't think that is the case for mine,-
+2,46,damn it would make this so easy,-
+1,47,but I bet you studied math or sth,-
+1,47,bec is so hard to get,-
+2,48,nop,-
+1,49,oh,-
+2,50(1),they just line up but at an angle,A1‚A18
+2,50(2),like instead of top to bottom its more top left to bottom right,-
+1,51,I mean now that I'm looking maybe they do line up like that,B1‚B18
+2,52,"i see 6 columns, starting from the left and moving right, and ordering the colors from top to bottom: column 1 - white, yellow column 2 - blue, white, red column 3 - white, white, white, column 4 - white, blue, white column 5 - blue, red, yellow, column 6 - red",A1‚A18
+1,53(1),"me too i see 6 columns, ",B1‚B18
+1,53(1),"but 1- red, 2- yellow, blue, 3- white, blue, red, white, white, 4- white, white, 5- red, white, blue, red, 6- yellow",B1‚B18
+1,53(2),I feel like we have two completely different pics,-
+1,53(3),only the woman with ponytail is the same maybe,2
+2,54,yea im not sure what the goal is technically we just compare the number of cups we each have,-
+2,54,"and go ""yep im missing that one"" ",- 
+2,54,but i dont know if the colors are supposed to also be guessed,-
+1,55(1),yeah me too,-
+1,55(2),it's been more than 40 mins right?,-
+2,56,yeah itll auto close at 60 i think,-
+1,57,oh ok,-
+2,58,i think im outta ideas,-
+1,59,yeah me too,-
+1,59,"and I am kinda asleep too, haha",- 
+2,60,"np, can click end chat and accept defeat :)",-
+1,61,who me?,-
+2,62,i mean we can,-
+1,63,oh yeah,-
