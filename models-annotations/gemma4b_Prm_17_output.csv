@@ -1,0 +1,77 @@
+﻿ Dialogue ID , Participant , Turn , Messages , Dialogue Act , Spatial , Relation Type , Topological , View Point , FoR , Explicit , Comments 
+17,1,1, Hey , Inform ,0,0,0, Speaker ,0,0, Initial greeting 
+17,2,2, Hey , Inform ,0,0,0, Speaker ,0,0, Initial greeting 
+17,1,3, What should we do now? , Question ,0,0,0, Speaker ,0,0, Requesting a task 
+17,2,4, I assume we should just describe what we see first? , Suggest ,0,0,0, Speaker ,0,0, Suggesting a starting point 
+17,1,5," Okay, I see a table with a lot of big cups ", Inform ,1,0,0, Speaker ,0,0, Initial observation 
+17,2,6," I see a lot of different cups, 3 red, 3 blue, 2 yellow and 7 white ", Inform ,1,0,0, Speaker ,0,0, Detailed description of cups 
+17,1,7, and two women standing around it , Inform ,1,0,0, Speaker ,0,0, Additional observation 
+17,2,8," I see a lot of different cups, 3 red, 3 blue, 2 yellow and 7 white ", Inform ,1,0,0, Speaker ,0,0, Repeating observation 
+17,1,9," I see 8 white, two are doubles? ", Question ,1,0,0, Speaker ,0,0, Clarifying observation 
+17,2,10, yea two appear to be double without a handle , Answer ,1,0,0, Speaker ,0,0, Answering the question 
+17,1,11, yes , Confirm ,0,0,0, Speaker ,0,0, Confirmation 
+17,2,12, Could be buckets? , Suggest ,0,0,0, Speaker ,0,0, Suggesting a possible categorization 
+17,1,13, yeah could be , Accept ,0,0,0, Speaker ,0,0, Accepting the suggestion 
+17,2,14, What do you see? , Question ,0,0,0, Speaker ,0,0, Requesting information 
+17,1,15, 3 blue 3 red and 2 yellow , Inform ,1,0,0, Speaker ,0,0, Providing specific counts 
+17,2,16, Yea two appear to be double without a handle , Answer ,1,0,0, Speaker ,0,0, Answering the question 
+17,1,17, yes , Confirm ,0,0,0, Speaker ,0,0, Confirmation 
+17,2,18, Maybe buckets? , Suggest ,0,0,0, Speaker ,0,0, Suggesting a possible categorization 
+17,1,19," uh huh, ", Confirm ,0,0,0, Speaker ,0,0, Confirmation 
+17,1,20," I'm confused, ", Inform ,0,0,0, Speaker ,0,0, Expressing confusion 
+17,1,21, looks a bit different , Inform ,0,0,0, Speaker ,0,0, Expressing a difference 
+17,2,22, Hey , Inform ,0,0,0, Speaker ,0,0, Initial greeting 
+17,2,23, Woman with white shirt? , Question ,0,0,0, Speaker ,0,0, Asking about a person 
+17,2,24, Has a yellow white and red mug infront of them? , Question ,0,0,0, Speaker ,0,0, Asking about a person 
+17,2,25, They are standing on the right side of the image? , Inform ,0,0,0, Speaker ,0,0, Describing location 
+17,1,26, I have one red buttom right and one red buttom left , Inform ,1,0,0, Speaker ,0,0, Describing cups 
+17,2,27, I have yellow red white(bucket) white normal , Inform ,1,0,0, Speaker ,0,0, Describing cups 
+17,2,28," Last row from left to right is white normal, blue, red ", Inform ,1,0,0, Speaker ,0,0, Describing cups 
+17,1,29," uh huh, ", Confirm ,0,0,0, Speaker ,0,0, Confirmation 
+17,1,30, I think we have the same amount of cups , Confirm ,0,0,0, Speaker ,0,0, Confirmation 
+17,2,31, but they have slightly different positions , Inform ,0,0,0, Speaker ,0,0, Explaining the difference 
+17,2,32, Cuz your far right is empty on my screen , Inform ,0,0,0, Speaker ,0,0, Explaining the difference 
+17,2,33, There was suppose to be some difference , Inform ,0,0,0, Speaker ,0,0, Explaining the difference 
+17,1,34, okay , Confirm ,0,0,0, Speaker ,0,0, Confirmation 
+17,1,35," we can do this, ", Suggest ,0,0,0, Speaker ,0,0, Suggesting a strategy 
+17,1,36, but im not sure how we really keep track , Inform ,0,0,0, Speaker ,0,0, Expressing uncertainty 
+17,2,37, Is it last row is Kinda 3 cups towards your right side? , Question ,0,0,0, Speaker ,0,0, Requesting clarification 
+17,2,38, Then 2nd to last more spaced out on the table? , Question ,0,0,0, Speaker ,0,0, Requesting clarification 
+17,2,39, They are standing on the right side of the image? , Inform ,0,0,0, Speaker ,0,0, Repeating location 
+17,1,40," I have one with grey standing opposite, ", Inform ,0,0,0, Speaker ,0,0, Describing a person 
+17,1,41, and one with white shirt standing on the right of me , Inform ,0,0,0, Speaker ,0,0, Describing a person 
+17,2,42, So im the woman in gray , Inform ,0,0,0, Speaker ,0,0, Identifying a person 
+17,2,43, and the white one is the npc from the description of the task , Inform ,0,0,0, Speaker ,0,0, Identifying a person 
+17,1,44, okay , Confirm ,0,0,0, Speaker ,0,0, Confirmation 
+17,2,45, yeah , Confirm ,0,0,0, Speaker ,0,0, Confirmation 
+17,1,46," I have 2 red cups in front of me, ", Inform ,1,0,0, Speaker ,0,0, Describing cups 
+17,1,47, one far right and one far left , Inform ,1,0,0, Speaker ,0,0, Describing cups 
+17,2,48, I have yellow red white(bucket) white normal , Inform ,1,0,0, Speaker ,0,0, Describing cups 
+17,2,49," Last row from left to right is white normal, blue, red ", Inform ,1,0,0, Speaker ,0,0, Describing cups 
+17,1,50," uh huh, ", Confirm ,0,0,0, Speaker ,0,0, Confirmation 
+17,1,51, I think the difference is just how one white and one white bucket are positioned , Inform ,0,0,0, Speaker ,0,0, Explaining the difference 
+17,2,52, Yeah , Confirm ,0,0,0, Speaker ,0,0, Confirmation 
+17,1,53," I have like 4 reds in total, ", Inform ,1,0,0, Speaker ,0,0, Describing cups 
+17,2,54,3, Inform ,0,0,0, Speaker ,0,0, Describing cups 
+17,1,55, and I have one yellow , Inform ,1,0,0, Speaker ,0,0, Describing cups 
+17,2,56," I have 2 yellow, 3 red, 3 blue, 6 white ", Inform ,1,0,0, Speaker ,0,0, Describing cups 
+17,1,57, I think we have the same amount of cups , Confirm ,0,0,0, Speaker ,0,0, Confirmation 
+17,2,58, Seems like it , Confirm ,0,0,0, Speaker ,0,0, Confirmation 
+17,2,59, They wanted us to find i think , Inform ,0,0,0, Speaker ,0,0, Explaining the goal 
+17,1,60," LOL, that's crazy, ", Inform ,0,0,0, Speaker ,0,0, Expressing surprise 
+17,1,61, so everything else is the same? , Question ,0,0,0, Speaker ,0,0, Requesting confirmation 
+17,2,62," Yeah Kinda yellow red, bucket and white are really close to me ", Inform ,1,0,0, Speaker ,0,0, Describing cups 
+17,1,63, for me you are missing the bucket one right in front of you , Inform ,1,0,0, Speaker ,0,0, Describing cups 
+17,2,64, Yeah that is my 2nd bucket , Inform ,1,0,0, Speaker ,0,0, Describing cups 
+17,2,65, the top corner of the y , Inform ,0,0,0, Speaker ,0,0, Describing cups 
+17,2,66, Is it last row is Kinda 3 cups towards your right side? , Question ,0,0,0, Speaker ,0,0, Requesting clarification 
+17,2,67, Then 2nd to last more spaced out on the table? , Question ,0,0,0, Speaker ,0,0, Requesting clarification 
+17,2,68, They are standing on the right side of the image? , Inform ,0,0,0, Speaker ,0,0, Describing location 
+17,1,69," I have one with grey standing opposite, ", Inform ,0,0,0, Speaker ,0,0, Describing a person 
+17,1,70, and one with white shirt standing on the right of me , Inform ,0,0,0, Speaker ,0,0, Describing a person 
+17,2,71, So im the woman in gray , Inform ,0,0,0, Speaker ,0,0, Identifying a person 
+17,2,72, and the white one is the npc from the description of the task , Inform ,0,0,0, Speaker ,0,0, Identifying a person 
+17,1,73, okay , Confirm ,0,0,0, Speaker ,0,0, Confirmation 
+17,2,74, yeah , Confirm ,0,0,0, Speaker ,0,0, Confirmation 
+17,1,75, I think , Confirm ,0,0,0, Speaker ,0,0, Confirmation 
+17,2,76, Okay bye , Inform ,0,0,0, Speaker ,0,0, Closing the conversation 

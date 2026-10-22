@@ -1,0 +1,155 @@
+﻿ Dialogue ID , Participant , Turn , Messages , Dialogue Act , Spatial , Relation Type , Topological , View Point , FoR , Explicit , Comments 
+17, Participant 1 ,1, Hey , Greeting ,0,0,0,0,0,0, Initial greeting 
+17, Participant 2 ,2, Hey , Greeting ,0,0,0,0,0,0, Responding to greeting 
+17, Participant 1 ,3, What should we do now? , Question ,0,0,0,0,0,0, Asking for direction 
+17, Participant 2 ,4, I assume we should just describe what we see first? , Suggest ,0,0,0,0,0,0, Suggesting a course of action 
+17, Participant 1 ,5," Okay, I see a table with a lot of big cups ", Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 ,6," I see a lot of different cups, 3 red, 3 blue, 2 yellow and 7 white ", Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 , 7(1) , and two women standing around it , Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 , 7(2) ," I see 8 white, two are doubles? ", Question ,1, Region ,0, Speaker ,0,0, Asking about the cups 
+17, Participant 1 , 7(3) , 3 blue 3 red and 2 yellow , Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 ,8, Yea two appear to be double without a handle , Confirm ,1, Region ,0, Speaker ,0,0, Confirming the observation 
+17, Participant 1 ,9, yes , Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 2 ,10, Maybe buckets? , Suggest ,0,0,0,0,0,0, Suggesting an alternative 
+17, Participant 1 , 11(1) , yeah could be , Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 1 , 11(2) , look like pots also lol , Inform ,0,0,0,0,0,0, Adding another observation 
+17, Participant 2 , 12(1) , Could be , Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 2 , 12(2) ," All the cups with visable handles, have white handles with a strap of their colour ", Inform ,1, Region ,0, Speaker ,0,0, Describing the cups 
+17, Participant 1 , 13(1) ," yeah, except the two red ones in front ", Disconfirm ,1, Projective ,0, Speaker ,0,0, Disconfirming the observation 
+17, Participant 1 , 13(2) , and the two yellow ones , Disconfirm ,1, Projective ,0, Speaker ,0,0, Disconfirming the observation 
+17, Participant 2 , 14a , Red ones in front? , Question ,1, Projective ,0, Addressee ,0,0, Asking for clarification 
+17, Participant 2 , 14b , I think our images have different rotations , Inform ,0,0,0,0,0,0, Suggesting a difference in views 
+17, Participant 1 ,15, oh maybe , Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 2 ,16, I have one red in front and two in the back right corner , Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 ,17," I have in the front row from left to right, red blue white red ", Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 18(1) , Mine is yellow red white(bucket) white normal , Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 18(2) ," Last row from left to right is white normal, blue, red ", Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 , 19(1)a ," uh huh, ", Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 1 , 19(1)b ," I'm confused, ", Inform ,0,0,0,0,0,0, Expressing confusion 
+17, Participant 1 , 19(1)c , looks a bit different , Inform ,0,0,0,0,0,0, Expressing confusion 
+17, Participant 1 , 19(2) , so the two women , Inform ,0,0,0,0,0,0, Changing the topic 
+17, Participant 1 , 19(3) , one have from left to right in front of them (their left) yellow red withe , Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 ,20,1, Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 1 , 21(1) ," and one is red blue white bucket, yellow ", Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 , 21(2) , ohhh okay , Confirm ,0,0,0,0,0,0, Confirmation 
+17, Participant 2 , 22(1)a , Woman with white shirt? , Question ,1, Region ,0, Addressee ,0,0, Asking about the scene 
+17, Participant 2 , 22(1)b , Has a yellow white and red mug infront of them? , Question ,1, Projective ,0, Addressee ,0,0, Asking about the scene 
+17, Participant 2 , 22(2) , They are standing on the right side of the image? , Question ,1, Region ,0, Addressee ,0,0, Asking about the scene 
+17, Participant 1 , 23a , I have one woman and one man , Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 , 23b ," I have one with grey standing opposite, and one with white shirt standing on the right of me ", Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 24a , So im the woman in gray , Inform ,1, Region ,0, Speaker ,0,0, Identifying themselves 
+17, Participant 2 , 24b , and the white one is the npc from the description of the task , Inform ,0,0,0,0,0,0, Identifying the NPC 
+17, Participant 1 , 25(1) , okay , Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 1 , 25(2) ," so you have from your left, yellow red white? ", Question ,1, Projective ,0, Addressee ,0,0, Asking for confirmation 
+17, Participant 1 , 25(3) ," and I have from my left, red blue white red ", Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 26(1)a ," I have yellow red white white, ", Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 26(1)b ,2, Inform ,0,0,0,0,0,0, Continuation of previous message 
+17, Participant 2 , 26(2) , and you red blue white. , Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 26(3) , There is 3 red cups one in front of me and one in front of you with the last one behind the one in front of you , Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 26(3) , There are* , Correction ,0,0,0,0,0,0, Correcting a mistake 
+17, Participant 1 , 27(1)a ," it doesn't make sense lol, ", Inform ,0,0,0,0,0,0, Expressing frustration 
+17, Participant 1 , 27(1)b , are our images different or is it supposed to be the same? , Question ,0,0,0,0,0,0, Asking about the images 
+17, Participant 1 , 27(2)a ," I have 2 red cups in front of me, ", Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 , 27(2)b , one far right and one far left , Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 ,28, There was suppose to be some difference , Inform ,0,0,0,0,0,0, Acknowledging the difference 
+17, Participant 1 ,29, okay , Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 2 , 30(1)a , I think we have the same amount of cups , Suggest ,0,0,0,0,0,0, Suggesting a similarity 
+17, Participant 2 , 30(1)b , but they have slightly different positions , Inform ,1, Spatial ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 30(2) , Cuz your far right is empty on my screen , Inform ,1, Projective ,0, Addressee ,0,0, Describing the scene 
+17, Participant 1 , 31(1) , hmm , Inform ,0,0,0,0,0,0, Acknowledging 
+17, Participant 1 , 31(2) , damn we can't scroll up the chat lol , Inform ,0,0,0,0,0,0, Commenting on the chat 
+17, Participant 2 ,32,1, Inform ,0,0,0,0,0,0, Acknowledging 
+17, Participant 1 , 33(1)a ," yeah yours is the same for me, ", Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 1 , 33(1)b , you have two rows with three cups each , Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 , 33(2) , what was our end goal again? , Question ,0,0,0,0,0,0, Asking about the task 
+17, Participant 2 , 34(1)a , Is it last row is Kinda 3 cups towards your right side? , Question ,1, Projective ,0, Addressee ,0,0, Asking for confirmation 
+17, Participant 2 , 34(1)b , Then 2nd to last more spaced out on the table? , Question ,1, Spatial ,0, Addressee ,0,0, Asking for confirmation 
+17, Participant 2 , 34(2)a ," Find the difference, ", Inform ,0,0,0,0,0,0, Reminding the task 
+17, Participant 2 , 34(2)b , but im not sure how we really keep track , Inform ,0,0,0,0,0,0, Expressing difficulty 
+17, Participant 2 , 34(3)a , They said the npc could see everything , Inform ,0,0,0,0,0,0, Recalling information 
+17, Participant 2 , 34(3)b , but idk how that would help us , Inform ,0,0,0,0,0,0, Expressing doubt 
+17, Participant 1 , 35(1)a ," we can do this, ", Inform ,0,0,0,0,0,0, Encouragement 
+17, Participant 1 , 35(1)b , describe every row and column from our perspective in one message , Suggest ,0,0,0,0,0,0, Suggesting a strategy 
+17, Participant 1 , 35(2)a ," okay from in front of me to the back, and from left to right, first row is red blue white, ", Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 , 35(2)b ," then there is second row one white bucket in the middle, ", Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 , 35(2)c ," then third row yellow red white blue, fourth blue white white bucket and last white red yellow, ", Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 , 35(2)d , maybe we should try to draw each others on a paper or something , Suggest ,0,0,0,0,0,0, Suggesting a strategy 
+17, Participant 2 , 36a ," From my side 1st row from left to right is: yellow, red, white(bucket), white. ", Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 36b ," 2nd row from left to right is white, white (bucket) white, blue, yellow. ", Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 36c ," 3rd row is blue, white, red last row is white blue red ", Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 ,37, I think the difference is just how one white and one white bucket are positioned , Inform ,1, Spatial ,0, Speaker ,0,0, Identifying the difference 
+17, Participant 2 , 38a , Does the white mugs Kina form a y shape on the table? , Question ,1, Spatial ,0, Addressee ,0,0, Asking for confirmation 
+17, Participant 2 , 38b , Except for one that is in my right side corner? , Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 , 39(1) , and one red is also different? , Question ,1, Spatial ,0, Speaker ,0,0, Asking about the difference 
+17, Participant 1 , 39(2)a ," yeah they kind of do, ", Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 1 , 39(2)b , the tale of the y is kind of bent maybe? , Inform ,1, Spatial ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 40(1) ," Maybe, cuz the red ones closet to you are back to back ", Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 40(2) , Yea so 5 of the wite mugs form a y shape , Inform ,1, Spatial ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 ,41," okay, now what, this is trippy lol ", Inform ,0,0,0,0,0,0, Expressing confusion 
+17, Participant 2 , 42a , If we go based on the white mugs forming a y shape , Suggest ,0,0,0,0,0,0, Suggesting a strategy 
+17, Participant 2 , 42b , the top part (v like) is closet to me , Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 42c , and has a yellow and red mug in it. , Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 42d , On the lower j part of the y there is a single blue mug on your right/my left. , Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 42e ," With two blue, two red and one yellow on your left/my right. ", Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 42f , With the last white cup in the corner closest to my right side. , Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 42g , Is it the same for you? , Question ,0,0,0,0,0,0, Asking for confirmation 
+17, Participant 1 ,43, yes , Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 2 , 44a , So maybe our cups are the same , Suggest ,0,0,0,0,0,0, Suggesting a similarity 
+17, Participant 2 , 44b , its just the perspective that makes it weird? , Question ,0,0,0,0,0,0, Asking for confirmation 
+17, Participant 1 ,45, maybe , Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 2 ,46, Maybe its the handles? , Suggest ,0,0,0,0,0,0, Suggesting a difference 
+17, Participant 1 ,47, but do I have a red mug on my far right from your perspective as well? , Question ,1, Projective ,0, Addressee ,0,0, Asking for confirmation 
+17, Participant 2 , 48(1) , No , Disconfirm ,0,0,0,0,0,0, Disconfirming 
+17, Participant 2 , 48(2) , Only a blue , Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 ,49, yeah the blue is right middle of the tale from my perspective , Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 50a , Wait if its right from my perspective , Inform ,0,0,0,0,0,0, Clarifying 
+17, Participant 2 , 50b , then you have one red in the corner. , Inform ,1, Projective ,0, Addressee ,0,0, Describing the scene 
+17, Participant 2 , 50c , Was thinking right from your perspective , Inform ,0,0,0,0,0,0, Clarifying 
+17, Participant 1 ,51," no I have one red on either of my sides, like one on each side ", Disconfirm ,1, Projective ,0, Speaker ,0,0, Disconfirming 
+17, Participant 2 , 52(1)a ," That you dont, ", Disconfirm ,0,0,0,0,0,0, Disconfirming 
+17, Participant 2 , 52(1)b , there are two reds in the same corner on your side and one in the middle of the table on my side , Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 52(2) , Its the corner on your left side , Inform ,1, Projective ,0, Addressee ,0,0, Describing the scene 
+17, Participant 1 , 53a ," I have like 4 reds in total, ", Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 , 53b , you have three or? , Question ,1, Region ,0, Addressee ,0,0, Asking for confirmation 
+17, Participant 2 ,54,3, Answer ,0,0,0,0,0,0, Answering 
+17, Participant 1 ,55, and I have two yellow , Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 ,56," I have 2 yellow, 3 red, 3 blue, 6 white ", Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 ,57, I have one red extra then , Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 58a ," Okay, that is the difference ", Confirm ,0,0,0,0,0,0, Confirming 
+17, Participant 2 , 58b , they wanted us to find i think , Suggest ,0,0,0,0,0,0, Suggesting the goal 
+17, Participant 1 , 59a ," LOL, that's crazy, ", Inform ,0,0,0,0,0,0, Expressing emotion 
+17, Participant 1 , 59b , so everything else is the same? , Question ,0,0,0,0,0,0, Asking for confirmation 
+17, Participant 2 , 60(1) , I think so , Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 2 , 60(2) , We havent said anything else that stod out , Inform ,0,0,0,0,0,0, Stating observation 
+17, Participant 1 ,61, okay , Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 2 , 62(1) ," Yea Kinda yellow red, bucket and white are really close to me ", Inform ,1, Spatial ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 62(2) , You also has two buckets? , Question ,1, Region ,0, Addressee ,0,0, Asking for confirmation 
+17, Participant 1 , 63(1)a , for me one of the buckets is right between the two whites on the tale of the Y , Inform ,1, Spatial ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 , 63(2)a , yeah I have two buckets also , Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 1 , 63(2)b , but I think one of them is in a differet place for either of us , Inform ,0,0,0,0,0,0, Suggesting a difference 
+17, Participant 2 ,64, The buckets are on my first and 2nd row , Inform ,1, Region ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 ,64, but you have like four cups in front of you the closest ones right? , Question ,1, Projective ,0, Addressee ,0,0, Asking for confirmation 
+17, Participant 1 ,65, yes , Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 2 ,66, for me one of the buckets is right between the two whites on the tale of the Y , Inform ,1, Spatial ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 ,66, the first one. Makes the top corner of the y. , Inform ,1, Spatial ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 ,66, From your perspective it would be the top left corner , Inform ,1, Projective ,0, Addressee ,0,0, Describing the scene 
+17, Participant 1 ,67," yes, should be, the one closest to you right? ", Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 2 , 68a ," okay I think that's the two differences, ", Inform ,0,0,0,0,0,0, Summarizing 
+17, Participant 2 , 68b , one bucket is out of place and one extra red? , Question ,0,0,0,0,0,0, Asking for confirmation 
+17, Participant 1 , 69a ," yeah they kind of do, the tale of the y is kind of bent maybe? ", Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 2 , 70(1) ," Maybe, cuz the red ones closet to you are back to back ", Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 70(2) , Yea so 5 of the wite mugs form a y shape , Inform ,1, Spatial ,0, Speaker ,0,0, Describing the scene 
+17, Participant 1 , 71a ," okay, now what, this is trippy lol ", Inform ,0,0,0,0,0,0, Expressing emotion 
+17, Participant 1 , 71b , maybe we should try to draw each others on a paper or something , Suggest ,0,0,0,0,0,0, Suggesting a strategy 
+17, Participant 2 , 72(1)a , If we go based on the white mugs forming a y shape , Suggest ,0,0,0,0,0,0, Suggesting a strategy 
+17, Participant 2 , 72(1)b , the top part (v like) is closet to me , Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 72(2) , and has a yellow and red mug in it. , Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 72(2) , On the lower j part of the y there is a single blue mug on your right/my left. , Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 72(2) ," With two blue, two red and one yellow on your left/my right. ", Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 72(2) , With the last white cup in the corner closest to my right side. , Inform ,1, Projective ,0, Speaker ,0,0, Describing the scene 
+17, Participant 2 , 72(2) , Is it the same for you? , Question ,0,0,0,0,0,0, Asking for confirmation 
+17, Participant 1 ,73, yes , Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 2 , 74a , So maybe our cups are the same , Suggest ,0,0,0,0,0,0, Suggesting a similarity 
+17, Participant 2 , 74b , its just the perspective that makes it weird? , Question ,0,0,0,0,0,0, Asking for confirmation 
+17, Participant 1 ,75, maybe , Agreement ,0,0,0,0,0,0, Agreement 
+17, Participant 2 ,76, Maybe its the handles? , Suggest ,0,0,0,0,0,0, Suggesting a difference 

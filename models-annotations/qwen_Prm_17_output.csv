@@ -1,0 +1,150 @@
+﻿ Dialogue ID , Participant , Turn , Message , Dialogue Act , Spatial , Relation Type , Topological , View Point , FoR , Explicit , Comments 
+17,1,1, Hey , Greeting ,0,0,0,0,0,0, Initial greeting to start the conversation 
+17,2,2, Hey , Greeting ,0,0,0,0,0,0, Initial greeting to start the conversation 
+17,1,3, What should we do now? , Question ,0,0,0,0,0,0, Asking about the task 
+17,2,4, I assume we should just describe what we see first? , Suggest ,0,0,0,0,0,0, Suggestion to begin task 
+17,1,5," Okay, I see a table with a lot of big cups ", Inform ,1, Region , in , Speaker , Relative ,0, Describing scene from own view 
+17,2,6," I see a lot of different cups, 3 red, 3 blue, 2 yellow and 7 white ", Inform ,1, Region , in , Speaker , Relative ,0, Describing scene from own view 
+17,1, 7(1) , and two women standing around it , Inform ,1, Region , around , Speaker , Relative ,0, Adding to previous description 
+17,1, 7(2) ," I see 8 white, two are doubles? ", Inform ,1, Proximity , near , Speaker , Relative ,0," Describing white cups, noting doubles "
+17,1, 7(3) , 3 blue 3 red and 2 yellow , Inform ,1, Proximity , near , Speaker , Relative ,0, Counting cups from own view 
+17,2,8, Yea two appear to be double without a handle , Confirm ,1, Proximity , near , Speaker , Relative ,0," Confirming doubles, noting no handles "
+17,1,9, yes , Confirm ,0,0,0,0,0,0, Confirming previous statement 
+17,2,10, Maybe buckets? , Suggest ,0,0,0,0,0,0, Suggesting alternative name for cups 
+17,1, 11(1) , yeah could be , Agree ,0,0,0,0,0,0, Agreeing with suggestion 
+17,1, 11(2) , look like pots also lol , Suggest ,0,0,0,0,0,0, Alternative suggestion with humor 
+17,2, 12(1) , Could be , Agree ,0,0,0,0,0,0, Agreeing with suggestion 
+17,2, 12(2) ," All the cups with visable handles, have white handles with a strap of their colour ", Inform ,1, Adjacency , next to , Speaker , Relative ,0, Describing handle color pattern 
+17,1, 13(1) ," yeah, except the two red ones in front ", Disconfirm ,1, Projective , in front , Speaker , Relative ,0, Noting exception to handle pattern 
+17,1, 13(2) , and the two yellow ones , Disconfirm ,1, Projective , in front , Speaker , Relative ,0, Continuing exception 
+17,2, 14a , Red ones in front? , Question ,1, Projective , in front , Addressee , Relative ,0, Asking for clarification about red cups 
+17,2, 14b , I think our images have different rotations , Suggest ,0,0,0,0,0,0, Hypothesizing difference in perspective 
+17,1,15, oh maybe , Agree ,0,0,0,0,0,0, Tentative agreement 
+17,2,16, I have one red in front and two in the back right corner , Inform ,1, Projective ," in front, in corner ", Speaker , Relative ,0, Describing red cup positions 
+17,1,17," I have in the front row from left to right, red blue white red ", Inform ,1," Projective, Alignment ", from left to right , Speaker , Relative ,0, Describing front row layout 
+17,2, 18(1) , Mine is yellow red white(bucket) white normal , Inform ,1, Alignment , from left to right , Speaker , Relative ,0, Describing front row from own view 
+17,2, 18(2) ," Last row from left to right is white normal, blue, red ", Inform ,1, Alignment , from left to right , Speaker , Relative ,0, Describing last row layout 
+17,1, 19(1)a ," uh huh, ", Agree ,0,0,0,0,0,0, Acknowledging 
+17,1, 19(1)b ," I'm confused, ", Express emotion ,0,0,0,0,0,0, Expressing confusion 
+17,1, 19(1)c , looks a bit different , Inform ,0,0,0,0,0,0, Noting visual difference 
+17,1, 19(2) , so the two women , Inform ,1, Region , around , Speaker , Relative ,0, Referring to women in scene 
+17,1, 19(3) , one have from left to right in front of them (their left) yellow red withe , Inform ,1, Alignment , from left to right , Addressee , Relative ,0, Describing layout from other person‚Äôs view 
+17,2,20,1, Inform ,0,0,0,0,0,0, Typo or placeholder? 
+17,1, 21(1) ," and one is red blue white bucket, yellow ", Inform ,1, Alignment , from left to right , Addressee , Relative ,0, Describing other person‚Äôs layout 
+17,1, 21(2) , ohhh okay , Confirm ,0,0,0,0,0,0, Understanding clarified 
+17,2, 22(1)a , Woman with white shirt? , Question ,1, Region , in front , Addressee , Relative ,0, Asking about specific person 
+17,2, 22(1)b , Has a yellow white and red mug infront of them? , Question ,1, Projective , in front , Addressee , Relative ,0, Asking about cup positions 
+17,2, 22(2) , They are standing on the right side of the image? , Question ,1, Region , on the right side , Addressee , Relative ,0, Asking about person‚Äôs position 
+17,1, 23a , I have one woman and one man , Inform ,1, Region , around , Speaker , Relative ,0, Correcting previous assumption 
+17,1, 23b ," I have one with grey standing opposite, and one with white shirt standing on the right of me ", Inform ,1," Projective, Region "," opposite, on the right ", Speaker , Relative ,0, Describing person positions 
+17,2, 24a , So im the woman in gray , Inform ,1, Region , in front , Speaker , Relative ,0, Identifying self 
+17,2, 24b , and the white one is the npc from the description of the task , Inform ,1, Region , in front , Speaker , Relative ,0, Identifying other person as NPC 
+17,1, 25(1) , okay , Confirm ,0,0,0,0,0,0, Acknowledging 
+17,1, 25(2) ," so you have from your left, yellow red white? ", Question ,1, Alignment , from left to right , Addressee , Relative ,0, Asking about layout from other‚Äôs view 
+17,1, 25(3) ," and I have from my left, red blue white red ", Inform ,1, Alignment , from left to right , Speaker , Relative ,0, Describing own layout 
+17,2, 26(1)a ," I have yellow red white white, ", Inform ,1, Alignment , from left to right , Speaker , Relative ,0, Describing front row 
+17,2, 26(1)b ,2, Inform ,0,0,0,0,0,0, Typo or placeholder? 
+17,2, 26(2) , and you red blue white. There is 3 red cups one in front of me and one in front of you with the last one behind the one in front of you , Inform ,1," Projective, Topological "," in front, behind ", Speaker , Relative ,0, Describing red cup positions 
+17,2, 26(3) , There are* , Inform ,0,0,0,0,0,0, Incomplete utterance 
+17,1, 27(1)a ," it doesn't make sense lol, ", Express emotion ,0,0,0,0,0,0, Expressing confusion with humor 
+17,1, 27(1)b , are our images different or is it supposed to be the same? , Question ,0,0,0,0,0,0, Asking about task design 
+17,1, 27(2)a ," I have 2 red cups in front of me, ", Inform ,1, Projective , in front , Speaker , Relative ,0, Describing red cup positions 
+17,1, 27(2)b , one far right and one far left , Inform ,1, Projective ," far right, far left ", Speaker , Relative ,0, Describing red cup positions 
+17,2,28, There was suppose to be some difference , Inform ,0,0,0,0,0,0, Confirming task design 
+17,1,29, okay , Confirm ,0,0,0,0,0,0, Acknowledging 
+17,2, 30(1)a , I think we have the same amount of cups , Inform ,0,0,0,0,0,0, Hypothesizing 
+17,2, 30(1)b , but they have slightly different positions , Inform ,1, Proximity , slightly different , Speaker , Relative ,0, Noting positional difference 
+17,2, 30(2) , Cuz your far right is empty on my screen , Inform ,1, Projective , far right , Addressee , Relative ,0, Noting missing cup from other‚Äôs view 
+17,1, 31(1) , hmm , Express emotion ,0,0,0,0,0,0, Thinking 
+17,1, 31(2) , damn we can't scroll up the chat lol , Express emotion ,0,0,0,0,0,0, Expressing frustration with interface 
+17,2,32,1, Inform ,0,0,0,0,0,0, Typo or placeholder? 
+17,1, 33(1)a ," yeah yours is the same for me, ", Confirm ,0,0,0,0,0,0, Confirming similarity 
+17,1, 33(1)b , you have two rows with three cups each , Inform ,1, Alignment , in rows , Addressee , Relative ,0, Describing layout 
+17,1, 33(2) , what was our end goal again? , Question ,0,0,0,0,0,0, Asking about task objective 
+17,2, 34(1)a , Is it last row is Kinda 3 cups towards your right side? , Question ,1, Projective , towards right , Addressee , Relative ,0, Asking about layout 
+17,2, 34(1)b , Then 2nd to last more spaced out on the table? , Question ,1, Proximity , spaced out , Addressee , Relative ,0, Asking about spacing 
+17,2, 34(2)a ," Find the difference, ", Inform ,0,0,0,0,0,0, Stating task goal 
+17,2, 34(2)b , but im not sure how we really keep track , Express emotion ,0,0,0,0,0,0, Expressing uncertainty 
+17,2, 34(3)a , They said the npc could see everything , Inform ,0,0,0,0,0,0, Recalling task instruction 
+17,2, 34(3)b , but idk how that would help us , Express emotion ,0,0,0,0,0,0, Expressing confusion 
+17,2, 34(3)c , The first two rows on your side only has 3 cups each for me , Inform ,1, Alignment , in rows , Addressee , Relative ,0, Describing layout 
+17,1, 35(1)a ," we can do this, ", Suggest ,0,0,0,0,0,0, Encouraging 
+17,1, 35(1)b , describe every row and column from our perspective in one message , Suggest ,0,0,0,0,0,0, Suggesting strategy 
+17,1, 35(2)a ," okay from in front of me to the back, and from left to right, first row is red blue white, ", Inform ,1, Alignment , from left to right , Speaker , Relative ,0, Describing layout 
+17,1, 35(2)b ," then there is second row one white bucket in the middle, ", Inform ,1, Region , in the middle , Speaker , Relative ,0, Describing second row 
+17,1, 35(2)c ," then third row yellow red white blue, ", Inform ,1, Alignment , from left to right , Speaker , Relative ,0, Describing third row 
+17,1, 35(2)d ," fourth blue white white bucket and last white red yellow, ", Inform ,1, Alignment , from left to right , Speaker , Relative ,0, Describing fourth and fifth rows 
+17,1, 35(2)e , maybe we should try to draw each others on a paper or something , Suggest ,0,0,0,0,0,0, Suggesting alternative strategy 
+17,2, 36a ," From my side 1st row from left to right is: yellow, red, white(bucket), white. ", Inform ,1, Alignment , from left to right , Speaker , Relative , from my side , Explicitly stated viewpoint 
+17,2, 36b ," 2nd row from left to right is white, white (bucket) white, blue, yellow. ", Inform ,1, Alignment , from left to right , Speaker , Relative , from my side , Explicitly stated viewpoint 
+17,2, 36c ," 3rd row is blue, white, red last row is white blue red ", Inform ,1, Alignment , from left to right , Speaker , Relative , from my side , Explicitly stated viewpoint 
+17,1,37, I think the difference is just how one white and one white bucket are positioned , Suggest ,1, Proximity , positioned , Speaker , Relative ,0, Hypothesizing difference 
+17,2, 38a , Does the white mugs Kina form a y shape on the table? , Question ,1, Alignment , forming a shape , Speaker , Relative ,0, Asking about pattern 
+17,2, 38b , Except for one that is in my right side corner? , Question ,1, Projective , in corner , Speaker , Relative ,0, Asking about exception 
+17,1, 39(1) , and one red is also different? , Question ,1,0,0, Speaker , Relative ,0, Asking about red cup difference 
+17,1, 39(2)a ," yeah they kind of do, ", Agree ,0,0,0,0,0,0, Agreeing 
+17,1, 39(2)b , the tale of the y is kind of bent maybe? , Suggest ,0,0,0,0,0,0, Suggesting shape variation 
+17,2, 40(1) ," Maybe, cuz the red ones closet to you are back to back ", Suggest ,1, Topological , back to back , Speaker , Relative ,0, Describing red cup orientation 
+17,2, 40(2) , Yea so 5 of the wite mugs form a y shape , Inform ,1, Alignment , forming a shape , Speaker , Relative ,0, Confirming pattern 
+17,1,41," okay, now what, this is trippy lol ", Express emotion ,0,0,0,0,0,0, Expressing confusion with humor 
+17,2, 42a , If we go based on the white mugs forming a y shape , Suggest ,1, Alignment , forming a shape , Speaker , Relative ,0, Proposing analysis method 
+17,2, 42b , the top part (v like) is closet to me , Inform ,1, Projective , closet to me , Speaker , Relative ,0, Describing Y shape 
+17,2, 42c , and has a yellow and red mug in it. , Inform ,1, Topological , in , Speaker , Relative ,0, Describing contents of Y shape 
+17,2, 42d , On the lower j part of the y there is a single blue mug on your right/my left. , Inform ,1, Projective , on your right/my left , Speaker , Relative ,0, Describing position relative to both 
+17,2, 42e ," With two blue, two red and one yellow on your left/my right. ", Inform ,1, Projective , on your left/my right , Speaker , Relative ,0, Describing position relative to both 
+17,2, 42f , With the last white cup in the corner closest to my right side. , Inform ,1, Projective , in corner , Speaker , Relative ,0, Describing position 
+17,2, 42g , Is it the same for you? , Question ,0,0,0,0,0,0, Confirming understanding 
+17,1,43, yes , Confirm ,0,0,0,0,0,0, Confirming 
+17,2, 44a , So maybe our cups are the same , Suggest ,0,0,0,0,0,0, Hypothesizing 
+17,2, 44b , its just the perspective that makes it weird? , Question ,0,0,0,0,0,0, Asking about cause of confusion 
+17,1,45, maybe , Agree ,0,0,0,0,0,0, Tentative agreement 
+17,2,46, Maybe its the handles? , Suggest ,0,0,0,0,0,0, Hypothesizing cause 
+17,1,47, but do I have a red mug on my far right from your perspective as well? , Question ,1, Projective , far right , Addressee , Relative ,0, Asking about position from other‚Äôs view 
+17,2, 48(1) , No , Disconfirm ,0,0,0,0,0,0, Disagreeing 
+17,2, 48(2) , Only a blue , Inform ,1, Projective , far right , Addressee , Relative ,0, Clarifying position 
+17,1,49, yeah the blue is right middle of the yable from my perspective , Inform ,1, Projective , middle , Speaker , Relative ,0, Describing position within Y shape 
+17,2, 50a , Wait if its right from my perspective , Inform ,1, Projective , right , Speaker , Relative ,0, Clarifying perspective 
+17,2, 50b , then you have one red in the corner. , Inform ,1, Projective , in corner , Addressee , Relative ,0, Describing position from other‚Äôs view 
+17,2, 50c , Was thinking right from your perspective , Inform ,0,0,0,0,0,0, Clarifying thought process 
+17,1,51," no I have one red on either of my sides, like one on each side ", Inform ,1, Projective , on each side , Speaker , Relative ,0, Correcting previous statement 
+17,2, 52(1)a ," That you dont, ", Disconfirm ,1,0,0, Addressee , Relative ,0, Disagreeing 
+17,2, 52(1)b , there are two reds in the same corner on your side and one in the middle of the table on my side , Inform ,1," Projective, Region "," in corner, in middle ", Speaker , Relative ,0, Describing red cup positions 
+17,2, 52(2) , Its the corner on your left side , Inform ,1, Projective , on your left side , Addressee , Relative ,0, Clarifying position 
+17,1, 53a ," I have like 4 reds in total, ", Inform ,1,0,0, Speaker , Relative ,0, Counting red cups 
+17,1, 53b , you have three or? , Question ,0,0,0,0,0,0, Asking for count 
+17,2,54,3, Inform ,0,0,0,0,0,0, Answering count 
+17,1,55, and I have two yellow , Inform ,1,0,0, Speaker , Relative ,0, Counting yellow cups 
+17,2,56," I have 2 yellow, 3 red, 3 blue, 6 white ", Inform ,1,0,0, Speaker , Relative ,0, Counting all cups 
+17,1,57, I have one red extra then , Inform ,1,0,0, Speaker , Relative ,0, Noting difference 
+17,2, 58a ," Okay, that is the difference ", Confirm ,0,0,0,0,0,0, Confirming difference 
+17,2, 58b , they wanted us to find i think , Inform ,0,0,0,0,0,0, Stating task goal 
+17,1, 59a ," LOL, that's crazy, ", Express emotion ,0,0,0,0,0,0, Expressing surprise with humor 
+17,1, 59b , so everything else is the same? , Question ,0,0,0,0,0,0, Confirming similarity 
+17,2, 60(1) , I think so , Inform ,0,0,0,0,0,0, Hypothesizing 
+17,2, 60(2) , We havent said anything else that stod out , Inform ,0,0,0,0,0,0, Confirming no other differences 
+17,1,61,2, Inform ,0,0,0,0,0,0, Typo or placeholder? 
+17,2, 62(1) ," Yea Kinda yellow red, bucket and white are really close to me ", Inform ,1, Proximity , close to , Speaker , Relative ,0, Describing proximity 
+17,2, 62(2) , You also has two buckets? , Question ,1,0,0, Addressee , Relative ,0, Asking about bucket count 
+17,1, 63(1) , for me you are missing the bucket one right in front of you , Inform ,1, Projective , in front , Addressee , Relative ,0, Noting missing bucket 
+17,1, 63(2)a , yeah I have two buckets also , Confirm ,0,0,0,0,0,0, Confirming bucket count 
+17,1, 63(2)b , but I think one of them is in a differet place for either of us , Suggest ,1, Proximity , in a different place , Speaker , Relative ,0, Hypothesizing positional difference 
+17,2,64, You had 6 white? , Question ,1,0,0, Addressee , Relative ,0, Asking about white cup count 
+17,1,65, yes , Confirm ,0,0,0,0,0,0, Confirming 
+17,2,66, The buckets are on my first and 2nd row , Inform ,1, Alignment , in rows , Speaker , Relative ,0, Describing bucket positions 
+17,2,66, but you have like four cups in front of you the closest ones right? , Question ,1, Projective , in front , Addressee , Relative ,0, Asking about front row count 
+17,1,67, for me one of the buckets is right between the two whites on the tale of the Y , Inform ,1, Topological , between , Speaker , Relative ,0, Describing bucket position 
+17,2, 68a , Yea that is my 2nd bucket , Confirm ,1,0,0, Speaker , Relative ,0, Confirming bucket identity 
+17,2, 68b , the first one. Makes the top corner of the y. , Inform ,1, Region , top corner , Speaker , Relative ,0, Describing bucket position 
+17,2, 68c , From your perspective it would be the top left corner , Inform ,1, Projective , top left corner , Addressee , Relative ,0, Describing position from other‚Äôs view 
+17,1, 69a ," yes, should be, ", Confirm ,0,0,0,0,0,0, Confirming 
+17,1, 69b , the one closest to you right? , Question ,1, Projective , closest to you , Addressee , Relative ,0, Asking about proximity 
+17,2,70, Yes , Confirm ,0,0,0,0,0,0, Confirming 
+17,1, 71a ," okay I think that's the two differences, ", Inform ,1,0,0, Speaker , Relative ,0, Summarizing differences 
+17,1, 71b , one bucket is out of place and one extra red? , Inform ,1,0,0, Speaker , Relative ,0, Listing differences 
+17,2, 72(1) , Seems like it , Agree ,0,0,0,0,0,0, Agreeing 
+17,2, 72(2)a , That is probably why the had two buckets. , Suggest ,0,0,0,0,0,0, Hypothesizing task design 
+17,2, 72(2)b , So we could notice them. , Inform ,0,0,0,0,0,0, Explaining purpose 
+17,1,73, okay , Confirm ,0,0,0,0,0,0, Acknowledging 
+17,2,74, Should we end? , Request ,0,0,0,0,0,0, Proposing to end task 
+17,1,75, yeah I think , Agree ,0,0,0,0,0,0, Agreeing to end 
+17,2,76, Okay bye , Closing ,0,0,0,0,0,0, Closing the dialogue 

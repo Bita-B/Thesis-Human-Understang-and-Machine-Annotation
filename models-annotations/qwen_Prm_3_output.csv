@@ -1,0 +1,139 @@
+﻿,,,,,,,,,,,,
+ Dialogue ID , Participant , Turn , Messages , Utterances , Dialogue Act , Spatial , Relation Type , Topological , View Point , FoR , Explicit , Comments 
+3,1,1,1, What do you see? , question ,0,0,0,0,0,0, Asking about the scene 
+3,2,2(1),2(1)a, different colored cups that sort of look like buckets. , inform ,0,0,0,0,0,0, Describing general appearance 
+3,2,2(1),2(1)b,2 people standing around a table with grass in the background, inform ,1, Region , in the background , Speaker , Relative ,0, Describes scene layout 
+3,2,2(2),2(2), i see white yellow red and blue cups , inform ,1,0,0, Speaker , Relative ,0, Lists colors visible 
+3,1,3,3a,There are like 6 white cups and 4 red and 3 blue and 2 yellow., inform ,1,0,0, Speaker , Relative ,0, Counts visible cups 
+3,1,3,3b, Is that the same for you? , question ,0,0,0,0,0,0, Checking for consistency 
+3,2,4(1),4(1),"7 white, 3 red, 3 blue, 2 yellow", inform ,1,0,0, Speaker , Relative ,0, Reports cup counts 
+3,2,4(2),4(2)a, maybe i have a white you cant see , offer ,1,0,0, Speaker , Relative ,0, Suggests hidden cup 
+3,2,4(2),4(2)b, and you have a red I cant see , offer ,1,0,0, Speaker , Relative ,0, Suggests hidden cup 
+3,1,5,5, Yeah maybe , agreement ,0,0,0,0,0,0, Accepting possibility 
+3,2,6,6, i see two reds top right and a red at the bottom left , inform ,1, Projective ," top right, bottom left ", Speaker , Relative ,0, Specifies red cup locations 
+3,1,7,7, so maybe there are hidden cups? , suggest ,0,0,0,0,0,0, Proposes hidden cups 
+3,2,8,8a, your red could be hidden to me , offer ,1,0,0, Speaker , Relative ,0, Suggests hidden cup 
+3,2,8,8b, and one of my whites are hidden to you , offer ,1,0,0, Speaker , Relative ,0, Suggests hidden cup 
+3,1,9,9a, I have one red buttom right and one red buttom left. , inform ,1, Projective ," bottom right, bottom left ", Speaker , Relative ,0, Reports red cup positions 
+3,1,9,9b, One top right and also one nearly in the middle. , inform ,1, Proximity , nearly in the middle , Speaker , Relative ,0, Reports additional red cups 
+3,2,10,10a, how many reds total did you have? , question ,0,0,0,0,0,0, Asking for count 
+3,2,10,10b, i cant scroll up , inform ,0,0,0,0,0,0, Technical issue 
+3,1,11,11, four , answer ,0,0,0,0,0,0, Responds to question 
+3,2,12(1),12(1)a, do you see a man with his arms crossed at the top middle? , question ,1, Region , top middle , Speaker , Relative ,0, Asks about person location 
+3,2,12(1),12(1)b," i see two cups under him, ", inform ,1,0,0, Speaker , Relative ,0, Reports cups under man 
+3,2,12(1),12(1)c, left one is white , inform ,1,0,0, Speaker , Relative ,0, Specifies cup color 
+3,2,12(1),12(1)d, and right one is blue. , inform ,1,0,0, Speaker , Relative ,0, Specifies cup color 
+3,2,12(1),12(1)e, are they the same for you? , question ,1,0,0,0,0,0, Checking consistency 
+3,2,12(2),12(2), . . . white blue red . , inform ,1,0,0, Speaker , Relative ,0, Describes cup arrangement 
+3,1,13,13a, I see two women. , inform ,1,0,0, Speaker , Relative ,0, Reports people seen 
+3,1,13,13b, No men , inform ,0,0,0,0,0,0, Confirms no men 
+3,2,14,14, ok so we probably have different images , suggest ,0,0,0,0,0,0, Proposes different views 
+3,1,15,15, yeah , agreement ,0,0,0,0,0,0, Agrees with suggestion 
+3,2,16,16, do you have any cups near the top left , question ,1, Proximity , near the top left , Addressee , Relative ,0, Asks about specific area 
+3,1,17,17a," yeah, ", agreement ,0,0,0,0,0,0, Affirms presence 
+3,1,17,17b, like a white and a blue cup are there , inform ,1, Proximity , near the top left , Speaker , Relative ,0, Describes cups in area 
+3,2,18,18a, i dont really have anything in that corner , inform ,1, Region , corner , Speaker , Relative ,0, Reports absence 
+3,2,18,18b, but i don‚Äôt know what supposed to mean , inform ,0,0,0,0,0,0, Expresses confusion 
+3,1,19(1),19(1)a, two of my white cups look a bit differnt from the others. , inform ,1,0,0, Speaker , Relative ,0, Notes visual difference 
+3,1,19(1),19(1)b, Is that the same for you? , question ,1,0,0,0,0,0, Checks for consistency 
+3,2,19(2),19(2), I have cups in every corner , inform ,1, Region , corner , Speaker , Relative ,0, Reports cup distribution 
+3,1,20,20a,i have 2 white cups without handles, inform ,1,0,0, Speaker , Relative ,0, Describes cup features 
+3,1,20,20b," but i assume theyre pointing away from the ""camera"" ", inform ,1, Directional , away from the camera , Speaker , Relative ,0, Explains orientation 
+3,2,21,21, what do you mean pointing away from the camera? , question ,0,0,0,0,0,0, Clarification request 
+3,1,22(1),22(1)a, i mean if they have handles i can't see them , inform ,1,0,0, Speaker , Relative ,0, Explains handle visibility 
+3,1,22(1),22(1)b, because theyre facing away from me , inform ,1, Directional , away from me , Speaker , Relative ,0, Explains orientation 
+3,1,22(2),22(2), they also have thicker lips which make them look more like buckets to me , inform ,1,0,0, Speaker , Relative ,0, Describes cup shape 
+3,2,23(1),23(1)a," oh oh okay, ", agreement ,0,0,0,0,0,0, Acknowledges explanation 
+3,2,23(1),23(1)b, Yeah , agreement ,0,0,0,0,0,0, Affirms understanding 
+3,2,23(1),23(1)c, but I think they don't have it , disagreement ,0,0,0,0,0,0, Disagrees with assumption 
+3,1,23(2),23(2), yes right , agreement ,0,0,0,0,0,0, Agrees with correction 
+3,2,24,24a," theyre both near the center, ", inform ,1, Proximity , near the center , Speaker , Relative ,0, Describes cup location 
+3,2,24,24b," ones center slightly left and the other is center and down, ", inform ,1, Projective ," center slightly left, center and down ", Speaker , Relative ,0, Specifies positions 
+3,2,24,24c, almost bottom right but not quite , inform ,1, Proximity , almost bottom right , Speaker , Relative ,0, Refines position 
+3,1,25,25, yeah for me one of them is also center slightly near to the buttom and the other near to the top right , inform ,1," Proximity, Projective "," near to the buttom, near to the top right ", Speaker , Relative ,0, Confirms and adds detail 
+3,2,26,26, whats on the bottom right of your table , question ,1, Region , bottom right , Addressee , Relative ,0, Asks about specific area 
+3,1,27,27, You said where are the people standing? , question ,0,0,0,0,0,0, Clarification request 
+3,2,28,28, theres a female left and a guy top , inform ,1, Region ," left, top ", Speaker , Relative ,0, Reports person positions 
+3,1,29,29a," on the buttom right there is a red cup, ", inform ,1, Region , bottom right , Speaker , Relative ,0, Reports cup location 
+3,1,29,29b, you? , question ,0,0,0,0,0,0, Asks for confirmation 
+3,2,30,30, white , answer ,1,0,0, Speaker , Relative ,0, Reports cup color 
+3,1,31(1),31(1), oh for me a woman right and a woman top , inform ,1, Region ," right, top ", Speaker , Relative ,0, Reports person positions 
+3,2,31(2),31(2), oh okay , agreement ,0,0,0,0,0,0, Acknowledges 
+3,1,32,32a, do the women have different shirt colors? , question ,1,0,0,0,0,0, Asks about clothing 
+3,1,32,32b, if so what are they , question ,1,0,0,0,0,0, Asks for details 
+3,2,33(1),33(1), the shapes are the same you can say , inform ,0,0,0,0,0,0, Notes similarity 
+3,2,33(2),33(2), but the right one has white T shirt , inform ,1,0,0, Speaker , Relative ,0, Reports clothing detail 
+3,1,34,34a, i had a theory that youre the guy in my picture , suggest ,0,0,0,0,0,0, Proposes theory 
+3,1,34,34b, and im one of the girls from yours , suggest ,0,0,0,0,0,0, Proposes theory 
+3,2,35(1),35(1), the top gray , inform ,1,0,0, Speaker , Relative ,0, Reports clothing color 
+3,1,35(2),35(2), what???? Hahaha , express emotion ,0,0,0,0,0,0, Expresses surprise 
+3,2,36,36a, what hair/pants/shoes , question ,0,0,0,0,0,0, Asks for details 
+3,2,36,36b, because if we have the same image but just different angles , suggest ,0,0,0,0,0,0, Proposes alternative 
+3,2,36,36c, it should be easy to figure out what is hidden‚Ä¶ , suggest ,0,0,0,0,0,0, Suggests strategy 
+3,2,36,36d, if anything is even hidden , question ,0,0,0,0,0,0, Questions assumption 
+3,1,37(1),37(1)a," I mean both have jeans, ", inform ,1,0,0, Speaker , Relative ,0, Reports clothing 
+3,1,37(1),37(1)b, the right one long hair and ponytail and the top one short hair , inform ,1,0,0, Speaker , Relative ,0, Reports hair details 
+3,1,37(2),37(2)a, I can't see the shoes of the top one , inform ,1,0,0, Speaker , Relative ,0, Reports visibility 
+3,1,37(2),37(2)b, but the other one are white , inform ,1,0,0, Speaker , Relative ,0, Reports shoe color 
+3,2,38(1),38(1)a, i see the same long hair ponytail , inform ,1,0,0, Speaker , Relative ,0, Confirms observation 
+3,2,38(1),38(1)b, but shes to my left , inform ,1, Projective , to my left , Speaker , Relative ,0, Reports position 
+3,2,38(2),38(2), are the cups closest to her yellow and white , question ,1,0,0, Addressee , Relative ,0, Asks about specific cups 
+3,1,39(1),39(1)," no they are blue, red and yellow, three closest cups to her ", disconfirm ,1,0,0, Speaker , Relative ,0, Corrects information 
+3,1,39(2),39(2), I don't think the pic is mirrored , disconfirm ,0,0,0,0,0,0, Rejects theory 
+3,2,40,40a, no clue if thats not the case. , inform ,0,0,0,0,0,0, Expresses uncertainty 
+3,2,40,40b, do the shadows on the cups point north west for you? , question ,1, Directional , north west , Addressee , Relative ,0, Asks about shadow direction 
+3,1,41,41, yes yes , agreement ,1, Directional , north west , Speaker , Relative ,0, Confirms shadow direction 
+3,2,42(1),42(1)a, i was gonna cheat , inform ,0,0,0,0,0,0, Expresses intention 
+3,2,42(1),42(1)b," and just create a table of where the cups are (. . . white blue . . red, and then the next line would be like . . . . . . . . red) ", inform ,1,0,0, Speaker , Relative ,0, Describes strategy 
+3,2,42(1),42(1)c, but i dont think that‚Äôs what they intended , inform ,0,0,0,0,0,0, Expresses doubt 
+3,2,42(1),42(1)d, if we're looking at the same thing but different cup locations , suggest ,0,0,0,0,0,0, Proposes scenario 
+3,2,42(1),42(1)e, then a hidden red one for me would be top left , suggest ,1, Projective , top left , Speaker , Relative ,0, Proposes hidden cup 
+3,2,42(1),42(1)f, because isee nothing there , inform ,1, Region , top left , Speaker , Relative ,0, Justifies suggestion 
+3,2,42(2),42(2), theres also a big empty area near the middle top right-ish for me , inform ,1, Region , middle top right , Speaker , Relative ,0, Reports empty space 
+3,2,42(3),42(3), wait the cups line up but at an angle , inform ,1, Directional , at an angle , Speaker , Relative ,0, Observes pattern 
+3,1,43(1),43a," no don't cheat haha, ", decline ,0,0,0,0,0,0, Rejects cheating 
+3,1,43(1),43b, the table for me is quite full , inform ,1,0,0, Speaker , Relative ,0, Reports table state 
+3,1,43(1),43c, and I really don't see many spots on it . , inform ,1,0,0, Speaker , Relative ,0, Reports visibility 
+3,1,43(1),43d, Maybe we can place one more cup in like center but a bit right and one in left , suggest ,1, Proximity ," center but a bit right, left ", Speaker , Relative ,0, Proposes cup placement 
+3,2,43(2),43(2), like how? , question ,0,0,0,0,0,0, Requests clarification 
+3,1,44(1),44(1)a," so from left to right column, top to bottom row, left would be white yellow. ", inform ,1,0,0, Speaker , Relative ,0, Describes arrangement 
+3,1,44(1),44(1)b, next column is blue white red. , inform ,1,0,0, Speaker , Relative ,0, Describes arrangement 
+3,1,44(1),44(1)c,"next is 3 white,", inform ,1,0,0, Speaker , Relative ,0, Describes arrangement 
+3,1,44(1),44(1)d, next is white blue white. , inform ,1,0,0, Speaker , Relative ,0, Describes arrangement 
+3,1,44(1),44(1)e, next is blue red yellow. , inform ,1,0,0, Speaker , Relative ,0, Describes arrangement 
+3,1,44(1),44(1)f, and the last one is red , inform ,1,0,0, Speaker , Relative ,0, Describes arrangement 
+3,2,44(2),44(2), the cups line up in columns , inform ,1,0,0, Speaker , Relative ,0, Observes pattern 
+3,2,44(3),44(3), but theyre just offset at an angle the further right they go , inform ,1, Directional , at an angle , Speaker , Relative ,0, Describes offset 
+3,1,45(1),45(1), omg how complicated , express emotion ,0,0,0,0,0,0, Expresses frustration 
+3,1,45(2),45(2), I don't think that is the case for mine , disconfirm ,0,0,0,0,0,0, Rejects pattern 
+3,2,46,46, damn it would make this so easy , express emotion ,0,0,0,0,0,0, Expresses frustration 
+3,2,47,47a, but I bet you studied math or sth , inform ,0,0,0,0,0,0, Makes assumption 
+3,1,47,47b, nop , disconfirm ,0,0,0,0,0,0, Rejects assumption 
+3,2,48,48, oh , express emotion ,0,0,0,0,0,0, Reaction 
+3,1,49,49, they just line up but at an angle , inform ,1, Directional , at an angle , Speaker , Relative ,0, Observes pattern 
+3,1,49,49, like instead of top to bottom , inform ,1, Directional , top to bottom , Speaker , Relative ,0, Compares to expected 
+3,1,49,49, its more top left to bottom right , inform ,1, Directional , top left to bottom right , Speaker , Relative ,0, Describes diagonal 
+3,2,50(1),50(1), I mean now that I'm looking maybe they do line up like that , inform ,1, Directional , top left to bottom right , Speaker , Relative ,0, Reconsiders pattern 
+3,2,50(2),50(2)a,"i see 6 columns, starting from the left and moving right, and ordering the colors from top to bottom: column 1 - white, yellow", inform ,1,0,0, Speaker , Relative ,0, Describes arrangement 
+3,2,50(2),50(2)b,"column 2 - blue, white, red", inform ,1,0,0, Speaker , Relative ,0, Describes arrangement 
+3,1,51,51,"me too i see 6 columns,", inform ,1,0,0, Speaker , Relative ,0, Confirms observation 
+3,1,51,51,"but 1- red, 2- yellow, blue, 3- white, blue, red, white, white, 4- white, white, 5- red, white, blue, red, 6- yellow", inform ,1,0,0, Speaker , Relative ,0, Describes arrangement 
+3,1,52,52, I feel like we have two completely different pics , inform ,0,0,0,0,0,0, Expresses doubt 
+3,2,53(1),53(1)a, only the woman with ponytail is the same maybe , inform ,1,0,0, Speaker , Relative ,0, Notes similarity 
+3,2,53(1),53(1)b, yea im not sure what the goal is technically we just compare the number of cups we each have , inform ,0,0,0,0,0,0, Clarifies task 
+3,2,53(2),53(2)," and go ""yep im missing that one"" ", inform ,0,0,0,0,0,0, Describes strategy 
+3,2,53(3),53(3), but i dont know if the colors are supposed to also be guessed , inform ,0,0,0,0,0,0, Expresses uncertainty 
+3,1,54,54a, yeah me too , agreement ,0,0,0,0,0,0, Agrees 
+3,1,54,54b,it's been more than 40 mins right?, question ,0,0,0,0,0,0, Asks about time 
+3,2,54,54c,yeah itll auto close at 60 i think, inform ,0,0,0,0,0,0, Reports time limit 
+3,1,55(1),55(1), oh ok , agreement ,0,0,0,0,0,0, Acknowledges 
+3,1,55(2),55(2), i think im outta ideas , inform ,0,0,0,0,0,0, Expresses exhaustion 
+3,2,56,56, yeah me too , agreement ,0,0,0,0,0,0, Agrees 
+3,1,57,57," and I am kinda asleep too, haha ", inform ,0,0,0,0,0,0, Expresses tiredness 
+3,2,58,58," np, can click end chat and accept defeat :) ", offer ,0,0,0,0,0,0, Suggests ending 
+3,1,59,59a, who me? , question ,0,0,0,0,0,0, Clarification 
+3,1,59,59b, i mean we can , agreement ,0,0,0,0,0,0, Agrees to end 
+3,2,60,60, oh yeah , agreement ,0,0,0,0,0,0, Agrees to end 
+3,1,61,61, who me? , question ,0,0,0,0,0,0, Clarification 
+3,2,62,62, i mean we can , agreement ,0,0,0,0,0,0, Agrees to end 
+3,1,63,63, oh yeah , agreement ,0,0,0,0,0,0, Agrees to end 
