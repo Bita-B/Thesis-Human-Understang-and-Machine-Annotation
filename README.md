@@ -1,4 +1,4 @@
-# Thesis-Human-Understang-and-Machine-Annotation
+# Thesis-Human-Understanding-and-Machine-Annotation
 Supplementary materials for a thesis on spatial language annotation and LLMs.
 
 # Between Human Understanding and Machine Annotation (Thesis)
